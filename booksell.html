@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Post</title>
+     <link rel="stylesheet" type="text/css" href="css/sem.css">
+     <link rel="stylesheet" type="text/css" href="css/signuppage.css">
+</head>
+  <div id="sdiv1"><h1>BOOK<sub>BECHO<sub>.com &trade;</sub></sub></h1></div>
+  <div id="sdiv2">
+    <h1 style="text-align: center;">Buy/Sell</h1>
+    <form name="form" action="buyer.php" method="POST">
+    
+    <p>
+            <span style="width: 40%;float: left;">
+              Book ID:
+            </span>
+            <span style="width: 60%;float: left;">
+              <input type="text" name="Bookid">
+            </span>
+            <br>
+          </p>
+          <p>
+            <span style="width: 40%;float: left;">
+              Quantity:
+            </span>
+            <span style="width: 60%;float: left;">
+              <input type="text" name="qty">
+            </span>
+            <br>
+          </p>
+          <p>
+            <span style="width: 40%;float: left;">
+              Buy/Sell:
+            </span>
+            <span style=" width: 60%;float: left;">
+              <input type="checkbox" value="1" name="bs1">Buyer
+              <input type="checkbox" value="0" name="bs2">Seller
+
+            </span>
+            <br>
+          </p>
+      <p><span style="width: 40%;float: left;"> First Name:
+      </span>
+        <span style="width: 60%;float: left;"><input id="fn" type="text" name="firstname" ></span>
+      </p>
+      <br>
+      <p>
+        <span style="width: 40%;float: left;">Last Name:
+        </span>
+        <span style="width: 60%;float: left;"><input id="ln" type="text" name="lastname" >
+        </span>
+      </p>
+   <br>
+   <p>Address:</p>
+   <textarea rows="4" cols="50" name="addr"></textarea>
+   <p>
+     <span style="width: 40%;float: left;">
+       Email:
+       </span>
+       <span style="width: 60%;float: left;">
+        <input id="eid" type="Email" name="Email" >
+      </span>
+    </p>
+    <br>
+    <p>
+      <span style="width: 40%;float: left;">
+        Phone no:
+        </span>
+        <span style="width: 60%;float: left;">
+          <input id="no1" type="Numbers" name="Numbers">
+        </span></p>
+          <br>
+          <br>
+          <div style="text-align: center;">
+          <input  type="submit"  value="Signup"></div>
+        </form>
+</body>
+</html>

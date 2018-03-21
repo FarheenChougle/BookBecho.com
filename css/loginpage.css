@@ -1,0 +1,40 @@
+#ldiv1
+{
+	height: 60px;
+	font-size:30px;
+	font-style: italic;
+}
+#ldiv2
+{
+	position: absolute;
+    left: 33%;
+    top: 30%;
+	background-color: brown;
+    width:400px;
+    border: 10px solid black;
+    padding: 25px;
+    margin: 25px;
+    align-content: center;
+}
+body 
+{
+	background-image:url(../media/bg1.jpg);
+	background-size: cover; 
+	text-align:center;
+	color: white;
+
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+image
+{
+	opacity:1;
+	float:center;}
+h1 
+{
+	color:white;
+	text-shadow:2px 2px red;	
+	text-align:center;
+}

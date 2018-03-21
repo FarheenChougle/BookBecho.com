@@ -1,0 +1,25 @@
+body
+{
+	background-image: url(../media/bg1.jpg);
+	color: white;
+}
+#ldiv1
+{
+	text-align: center;
+	height: 60px;
+	font-size:30px;
+	font-style: italic;
+}
+#ldiv2
+{
+	text-align: center;
+	color: white;
+	text-shadow:2px 2px red;
+	background-color: brown;
+}
+h1 
+{
+	color:white;
+	text-shadow:2px 2px red;	
+	text-align:center;
+}

@@ -1,0 +1,26 @@
+#t1
+{
+	color:white;
+	text-shadow:2px 2px red;	
+	text-align:center;
+}
+body 
+{
+	background-image:url(../media/bg1.jpg);
+	background-size: cover; 
+	text-align:center;
+	color: white;
+
+}
+.mySlides
+{
+	position: absolute;
+	height: 90%;
+	width: 10%;
+	border: 10px;
+	border-color: black;
+}
+#islider
+{
+	right: 70%;
+}

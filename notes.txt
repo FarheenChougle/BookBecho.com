@@ -1,0 +1,48 @@
+###login
+///////////////////////////
+
+username
+password
+sign up ---> link to Form(sign up)
+login
+forget your Password
+
+
+###form
+/////////////////////////
+
+last name
+first name
+mobile 
+email
+address
+buyer/seller
+signup button ---> database entry
+
+###home page
+//////////////////////////////////////////
+
+div--> Notifications  --> Reminder,Request
+Ad Post -->Photo,Price,Title,Author,year,No. of Copies,Rent/Seller
+Ad Viewer -->Buying,Request,Search,Availability
+
+
+###book Info Page:
+/////////////////////////////////////////////
+
+AD poster ka Content i.e (((Ad Post -->Photo,Price,Title,Author,year,No. of Copies,Rent/Seller)))
+Seller Info ((Name ,mobile,Email ID ,College,Branch,ID))
+Buyer Request  to Seller then Will Recieve notification((Name ,mobile,Email ID ,College,Branch,ID))
+
+About US ,Contact US ,Feedback,
+///////////////////////////////////////////
+
+
+widget
+///////////////////////////////////////////
+Number of Visitors
+
+
+
+
+

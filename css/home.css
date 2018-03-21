@@ -1,0 +1,41 @@
+#ldiv1
+{
+	height: 40px;
+	font-size:20px;
+	font-style: italic;
+
+}
+body 
+{
+	background-image:url(../media/bg1.jpg);
+	background-size: cover; 
+	text-align:center;
+	color: white;
+
+}
+h1 
+{
+	color:white;
+	text-shadow:2px 2px red;	
+	text-align:center;
+	display: inline;
+	float: left;
+	left: 40%;
+}
+#div2
+{
+	color: gray;
+	font-style:oblique;
+	font-family:cursive;
+	font-weight: 800;
+	text-shadow:2px 2px #F5F3EE;
+	font-size: 30px;
+	display: inline;
+	left: 40%;
+}
+#div3
+{
+	background-color: #E3AB57;
+	height: 20px;
+
+}

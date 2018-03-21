@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title> Sign up page </title>
+  <script src="js/signuppage.js"></script>
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/signuppage.css">
+  <title>signup</title>
+</head>
+<body>
+  <div id="sdiv1"><h1>BOOK<sub>BECHO<sub>.com &trade;</sub></sub></h1></div>
+  <div id="sdiv2">
+    <h1 style="text-align: center;">Create An Account</h1>
+    <form name="form" action="signin.php" method="POST">
+      <p><span style="width: 40%;float: left;"> First Name:
+      </span>
+        <span style="width: 60%;float: left;"><input id="fn" type="text" name="firstname" ></span>
+      </p>
+      <br>
+      <p>
+        <span style="width: 40%;float: left;">Last Name:
+        </span>
+        <span style="width: 60%;float: left;"><input id="ln" type="text" name="lastname" >
+        </span>
+      </p>
+      <br>
+      <p><span style="width: 40%;float: left;">
+        Username:
+      </span>
+      <span style="width: 60%;float: left;">
+        <input id="us1" type="text" name="username">
+      </span>
+    </p>
+    <br>
+    <p>
+      <span style="width: 40%;float: left;">
+      Gender:
+      </span>
+      <span style="width: 60%;float: left;">
+       <input type="radio" name="gender" value="male" checked> Male
+       <input type="radio" name="gender" value="female"> Female
+       <input type="radio" name="gender" value="other"> Other
+     </span>
+   </p>
+   <br>
+   <p>Address:</p>
+   <textarea rows="4" cols="50"></textarea>
+   <p>
+     <span style="width: 40%;float: left;">
+       Email:
+       </span>
+       <span style="width: 60%;float: left;">
+        <input id="eid" type="email" name="Email" >
+      </span>
+    </p>
+    <br>
+    <p>
+      <span style="width: 40%;float: left;">
+        Phone no:
+        </span>
+        <span style="width: 60%;float: left;">
+          <input id="no1" type="Numbers" name="Numbers">
+        </span></p>
+        <br>
+        <p>
+          <span style="width: 40%;float: left;">
+            Enter Your Password:</span>
+            <span style="width: 60%;float: left;">
+              <input id="pwd1" onclick="javascript:valid();" type="password" name="pwd">
+            </span>
+          </p>
+          
+          <br>
+          <p>
+            <span style="width: 40%;float: left;">
+              Buyer/Seller:
+            </span>
+            <span style="width: 60%;float: left;">
+              <input type="checkbox" name="bs1" value="Buyer">Buyer
+              <input type="checkbox" name="bs2" value="Seller">Seller
+            </span>
+          </p>
+          <br>
+          <h5>By signing up, you agree to our Terms & Privacy Policy.</h5> 
+          <div style="text-align: center;">
+          <input  type="submit"  value="Signup"></div>
+        </form>
+
+      </div>
+    </body>
+    </html>
